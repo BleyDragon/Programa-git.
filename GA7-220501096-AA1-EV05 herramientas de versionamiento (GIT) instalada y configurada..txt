@@ -1,0 +1,34 @@
+Evidencia de producto: GA7-220501096-AA1-EV05 herramientas de versionamiento (GIT) instalada y configurada.
+Tomando como referencia el componente formativo “Integración continua”, conectar el equipo local con el repositorio remoto por medio de Git usando los comandos vistos anteriormente.
+Realice la ejecución de cada uno de los comandos básicos de git remoto y local teniendo en cuenta el ejercicio propuesto a continuación:
+Paso 1
+1. Crear un nuevo repositorio público en GitHub, gitLab o herramienta de su selección con el
+2. Añadirlo al repositorio local del Programa.
+3. Mostrar todos los repositorios remotos configurados.
+Paso 1
+# Crear el repositorio en GitHub y copiar su url con el protocolo https.
+> git remote add github url
+> git remote -v
+Paso 2
+1. Agregar los cambios del repositorio local al repositorio remoto de GitHub o GitLab.
+2. Acceder a GitHub o GitLab y comprobar que se han subido los cambios mostrando el historial de versiones.
+>git push github master
+Paso 3
+● Agregar el archivo kotlin.txt que contenga el nombre del usuario y su correo electrónico.
+● Agregar los cambios.
+● Realizar un commit con el mensaje “Añadido datos.”
+● Cargar cambios al repositorio remoto.
+> cat > kotlin.txt
+git add .
+> git commit -m
+"Añadido datos."
+> git push origin master.
+Elementos para tener en cuenta:
+○ Se debe realizar el ejercicio en las herramientas de versionamiento instaladas y grabar un video ejecutando cada uno de los puntos solicitados en el ejercicio propuesto.
+○ Debe ir explicando cada uno de los requerimientos.
+○ El vídeo debe tener una presentación con su nombre y los ejercicios a realizar.
+Lineamientos generales para la entrega de la evidencia:
+○ Productos para entregar: video
+○ Extensión: Mp4.
+○ Para hacer el envío de la evidencia remítase al área de la actividad correspondiente y acceda al espacio:
+herramientas de versionamiento (GIT) instalada y configurada. GA7-220501096-AA1-EV05
